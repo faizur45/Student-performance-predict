@@ -36,6 +36,9 @@ coverage.xml
 # Streamlit cache
 .streamlit/
 
+# Trained model pickles (too large for GitHub — run `python run_train.py` after cloning)
+models/*.pkl
+
 # Misc
 *.log
 *.tmp
